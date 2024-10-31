@@ -105,9 +105,11 @@ Both techniques are widely used, easy to interpret, and form the basis for more 
 
 > ### 1. **California Housing Prices Dataset**:  
    Build a Linear regression model to predict **housing prices** across California districts. Using features like median income, house age, and population, the project aims to assess key drivers of housing prices and provide a tool for price estimation that supports real estate decision-making and market analysis.
+   ###### (include the tasks given by instructor, nasa pm)
 
 > ### 2. **Customer Churn Dataset**:  
    Develop a predictive model using Logistic regression to identify customers at high risk of **churning**, enabling proactive engagement strategies. By analyzing customer demographics, service usage, and payment methods, the goal is to uncover key factors influencing churn and suggest actionable insights to improve customer retention.
+   ###### (include the tasks given by instructor, nasa pm)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
