@@ -86,10 +86,10 @@ Both techniques are widely used, easy to interpret, and form the basis for more 
 #### In order to achieve the optimal performance of data processing for Linear Regression, we replaced some of the data with numerical values including:
 
 - **ocean proximity categorized as:**
-  >(1) - Near ocean
-  >(2) - Near bay
-  >(3) - <1h ocean
-  >(4) - Inland
+  > #### (1) - Near ocean
+  > #### (2) - Near bay
+  > #### (3) - <1h ocean
+  > #### (4) - Inland
   
 
 > ## The data set used for logistic regression:
@@ -500,5 +500,6 @@ Below is a **Heat Map** of the **Confusion Matrix** showing the result of Logist
 
 ![image](https://github.com/user-attachments/assets/3821ef4f-1f47-4c2a-8689-876808483e2c)
 
-
 <div align="justify">
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
