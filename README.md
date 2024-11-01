@@ -343,7 +343,131 @@ This approach provides a structured pipeline for data preparation, model trainin
 # VI. Documentation
 
 ## Code Comments
-## Methodology
+
+> ## Linear Regression
+
+```python
+import pandas as pd
+dataset = pd.read_excel('housing.xlsx')
+```
+
+```python
+dataset.head(5)
+```
+
+```python
+X = dataset.iloc[:, :-1].values
+print(X)  # Display features
+
+y = dataset.iloc[:, -1].values
+print(y)  # Display target variable
+```
+
+```python
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+```
+
+```python
+from sklearn.ensemble import HistGradientBoostingRegressor
+model = HistGradientBoostingRegressor(random_state=0)
+model.fit(X_train, y_train)
+```
+
+```python
+y_pred = model.predict(X_test)
+print(y_pred)  # Display predictions
+```
+
+```python
+print(model.predict([[-122.23, 37.88, 41, 880, 129.0, 322, 126, 8.3252, 2]]))
+```
+
+```python
+from sklearn.metrics import r2_score
+r2 = r2_score(y_test, y_pred)
+print(r2)
+```
+
+```python
+k = X_test.shape[1]  # Number of features
+n = X_test.shape[0]  # Number of observations
+
+adj_r2 = 1 - (1 - r2) * (n - 1) / (n - k - 1)
+adj_r2  # Display adjusted R-squared
+```
+---
+
+> ## Logistic Regression
+
+   ```python
+   import pandas as pd
+   import matplotlib.pyplot as plt
+   import seaborn as sns
+
+   dataset = pd.read_csv('customer_churn_dataset-testing-master.csv')
+   ```
+   
+   ```python
+   dataset.head(10)
+   ```
+
+  ```python
+     X = dataset.iloc[:, 1:-1].values  # Select all columns except the first and last
+     y = dataset.iloc[:, -1].values    # Target column is assumed to be the last
+  ```
+
+  ```python
+     from sklearn.model_selection import train_test_split
+     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+  ```
+
+  ```python
+     from sklearn.preprocessing import StandardScaler
+     sc = StandardScaler()
+     X_train = sc.fit_transform(X_train)
+     X_test = sc.transform(X_test)  # Use the same scaler for the test set
+  ```
+
+  ```python
+     from sklearn.linear_model import LogisticRegression
+     model = LogisticRegression(random_state=0)
+     model.fit(X_train, y_train)
+  ```
+
+  ```python
+     y_pred = model.predict(X_test)
+  ```
+
+  ```python
+     from sklearn.metrics import confusion_matrix
+     conf_matrix = confusion_matrix(y_test, y_pred)
+     print(conf_matrix)
+  ```
+
+  ```python
+     import matplotlib.pyplot as plt
+     import seaborn as sns
+
+     plt.figure(figsize=(6, 4))
+     sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')
+     plt.title('Confusion Matrix')
+     plt.ylabel('Actual Values')
+     plt.xlabel('Predicted Values')
+     plt.show()
+  ```
+
+  ```python
+     from sklearn.metrics import accuracy_score
+     accuracy = accuracy_score(y_test, y_pred)
+     print(accuracy)
+  ```
+
+  ```python
+     print(model.predict(sc.transform([[22, 0, 25, 14, 4, 27, 1, 1, 598, 9]])))
+  ```
+---
+
 ## Results and Discussion
 
 ### Linear Regression
