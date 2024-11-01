@@ -85,6 +85,15 @@ Both techniques are widely used, easy to interpret, and form the basis for more 
 ###### (include substitution of numerical values)
 #### In order to achieve the optimal performance of data processing for Linear Regression, we replaced some of the data with numerical values including:
 
+- **Male - 0**
+- **Female - 1**
+- **Basic - 1**
+- **Standard - 2**
+- **Premium - 3**
+- **Monthly - 1**
+- **Quarterly - 3**
+- **Annualy - 12**
+
 > ## The data set used for logistic regression:
 #### The Kaggle customer churn dataset contains attributes related to customer demographics, account information, and service usage. Key features includes:
 
