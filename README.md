@@ -348,13 +348,14 @@ This approach provides a structured pipeline for data preparation, model trainin
 
 ### Linear Regression
 ### Logistic Regression
-  The independent Variables of Customer Churn Dataset are:
-    - Customer Tenure
-    - Contract Type
-    - Payment Method
-    - Monthly Charges
-    - Total Charges
-  On the other hand, the Dependent Variable is the variable **Churn**.
+The independent Variables of Customer Churn Dataset are:
+- Customer Tenure
+- Contract Type
+- Payment Method
+- Monthly Charges
+- Total Charges
+  
+On the other hand, the Dependent Variable is the variable **Churn**.
     
 ###### (code comments, methodology, results, discussion)
 <div align="justify">
