@@ -531,6 +531,26 @@ An insight from the logistic regression model reveals that customers with shorte
 
 This suggests that offering incentives, such as discounts for longer-term commitments or loyalty rewards for customers who renew annually, could be effective in reducing churn. Additionally, providing targeted support or personalized engagement for newer customers can help strengthen their relationship with the company, potentially decreasing their likelihood of leaving.
 
+---
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Linear vs. Logistic Regression: Key Differences and Limitations
+
+> **Purpose and Output**:
+   - **Linear Regression**: Used for predicting continuous outcomes (e.g., House pricing in California) by assuming a linear relationship between features and target values.
+   - **Logistic Regression**: Designed for binary classification (e.g., churn prediction). It models probabilities between 0 and 1 using a sigmoid function.
+
+> **Interpretation**:
+   - **Linear Regression**: Coefficients indicate the change in the outcome for each feature.
+   - **Logistic Regression**: Coefficients indicate the change in log odds, helping interpret how features impact the probability of churn.
+
+> **Limitations**:
+   - **Linear Regression**: Cannot handle binary outcomes and is sensitive to outliers; it assumes linear relationships, limiting it in cases with complex data patterns.
+   - **Logistic Regression**: Assumes linearity in log odds, struggles with non-linear relationships, and can be challenging to interpret with many variables. It also performs poorly on imbalanced datasets unless adjustments are made.
+
+Logistic regression’s focus on binary outcomes and interpretability make it ideal for churn prediction, though limitations include sensitivity to data balance and linear assumptions. Each regression has their own strengths if used accordingly.
+
 <div align="justify">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
