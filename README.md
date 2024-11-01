@@ -356,6 +356,9 @@ The independent Variables of Customer Churn Dataset are:
 - Total Charges
   
 On the other hand, the Dependent Variable is the variable **Churn**.
-    
-###### (code comments, methodology, results, discussion)
+
+Since some of the variables have unique values, it has to be replaced with numerical values.
+
+Below is a Heat Map of the Confusion Matrix showing the result of Logistic Regression with 82-96 percent accuracy.
+
 <div align="justify">
