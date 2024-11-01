@@ -523,6 +523,14 @@ Below is a **Heat Map** of the **Confusion Matrix** showing the result of Logist
 
 ![image](https://github.com/user-attachments/assets/3821ef4f-1f47-4c2a-8689-876808483e2c)
 
+---
+
+### Discussion
+
+An insight from the logistic regression model reveals that customers with shorter tenure and those on month-to-month contracts have a significantly higher risk of churning compared to customers on annual contracts or those with longer tenure. This is often observed through the model’s coefficients, where short tenure and monthly contract variables would have higher positive coefficients, indicating a strong association with churn.
+
+This suggests that offering incentives, such as discounts for longer-term commitments or loyalty rewards for customers who renew annually, could be effective in reducing churn. Additionally, providing targeted support or personalized engagement for newer customers can help strengthen their relationship with the company, potentially decreasing their likelihood of leaving.
+
 <div align="justify">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
