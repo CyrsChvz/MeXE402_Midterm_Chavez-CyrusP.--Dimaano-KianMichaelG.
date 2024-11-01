@@ -342,9 +342,9 @@ This approach provides a structured pipeline for data preparation, model trainin
 <a name="Documentation"> </a>
 # VI. Documentation
 
-### Code Comments
-### Methodology
-### Results and Discussion
+## Code Comments
+## Methodology
+## Results and Discussion
 
 ### Linear Regression
 ### Logistic Regression
