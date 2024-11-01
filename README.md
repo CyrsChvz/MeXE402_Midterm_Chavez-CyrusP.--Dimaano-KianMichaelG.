@@ -359,6 +359,8 @@ On the other hand, the Dependent Variable is the variable **Churn**.
 
 Since some of the variables have unique values, it has to be replaced with numerical values.
 
-Below is a Heat Map of the Confusion Matrix showing the result of Logistic Regression with 82-96 percent accuracy.
+Below is a Heat Map of the Confusion Matrix showing the result of Logistic Regression with 82-95 percent accuracy.
+![image](https://github.com/user-attachments/assets/3821ef4f-1f47-4c2a-8689-876808483e2c)
+
 
 <div align="justify">
