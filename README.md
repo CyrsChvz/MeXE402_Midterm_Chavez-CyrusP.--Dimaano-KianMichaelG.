@@ -346,8 +346,8 @@ This approach provides a structured pipeline for data preparation, model trainin
 ### Methodology
 ### Results and Discussion
 
-#### Linear Regression
-#### Logistic Regression
+### Linear Regression
+### Logistic Regression
 
 ###### (code comments, methodology, results, discussion)
 <div align="justify">
