@@ -107,8 +107,19 @@ Both techniques are widely used, easy to interpret, and form the basis for more 
 - **target variable, "Churn"** which indicates if a customer has left service 
 
 #### It’s designed for predictive modeling, primarily binary classification, to analyze factors influencing customer churn.
-###### (include substitution of numerical values)
+
 #### In order to achieve the optimal performance of data processing for Logistic Regression, we replaced some of the data with numerical values including:
+
+- **Male - 0**
+- **Female - 1**
+- **Basic - 1**
+- **Standard - 2**
+- **Premium - 3**
+- **Monthly - 1**
+- **Quarterly - 3**
+- **Annually - 12**
+- **Churned - 1**
+- **Not Churned - 0**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
