@@ -82,7 +82,7 @@ Both techniques are widely used, easy to interpret, and form the basis for more 
 - **population** 
 - **households**
 #### in each block group. This dataset is widely used for regression tasks, particularly for predicting housing prices based on demographic and geographic information.
-###### (include substitution of numerical values)
+
 #### In order to achieve the optimal performance of data processing for Linear Regression, we replaced some of the data with numerical values including:
 
 - **Male - 0**
@@ -92,7 +92,9 @@ Both techniques are widely used, easy to interpret, and form the basis for more 
 - **Premium - 3**
 - **Monthly - 1**
 - **Quarterly - 3**
-- **Annualy - 12**
+- **Annually - 12**
+- **Churned - 1**
+- **Not Churned - 0**
 
 > ## The data set used for logistic regression:
 #### The Kaggle customer churn dataset contains attributes related to customer demographics, account information, and service usage. Key features includes:
