@@ -360,7 +360,9 @@ On the other hand, the Dependent Variable is the variable **Housing Prices**.
 
 Since some of the variables have unique values, it has to be replaced with numerical values.
 
-(insert graph)
+Below is a **Scatter Plot** of the **Housing Median Value** showing the result of Linear Regression with 83-83 percent accuracy.
+
+![scatter plot](https://github.com/user-attachments/assets/96e5dfab-456c-41d3-98a7-4b396aabd0da)
 
 ### Logistic Regression
 The Independent Variables of Customer Churn Dataset are:
@@ -374,7 +376,7 @@ On the other hand, the Dependent Variable is the variable **Churn**.
 
 Since some of the variables have unique values, it has to be replaced with numerical values.
 
-Below is a Heat Map of the Confusion Matrix showing the result of Logistic Regression with 82-95 percent accuracy.
+Below is a **Heat Map** of the **Confusion Matrix** showing the result of Logistic Regression with 82-95 percent accuracy.
 
 ![image](https://github.com/user-attachments/assets/3821ef4f-1f47-4c2a-8689-876808483e2c)
 
