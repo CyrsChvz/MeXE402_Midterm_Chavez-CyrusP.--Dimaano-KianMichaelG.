@@ -341,5 +341,10 @@ This approach provides a structured pipeline for data preparation, model trainin
 
 <a name="Documentation"> </a>
 # VI. Documentation
+
+### Ceode Comments
+### Methodology
+### Results and Discussion
+
 ###### (code comments, methodology, results, discussion)
 <div align="justify">
