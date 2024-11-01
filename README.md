@@ -347,8 +347,23 @@ This approach provides a structured pipeline for data preparation, model trainin
 ## Results and Discussion
 
 ### Linear Regression
+The Independent Variables of California Housing Prices Dataset are:
+- Median House Value
+- Median Income
+- Average House Age
+- Total Rooms
+- Total Bedrooms
+- Population
+- Households
+  
+On the other hand, the Dependent Variable is the variable **Housing Prices**.
+
+Since some of the variables have unique values, it has to be replaced with numerical values.
+
+(insert graph)
+
 ### Logistic Regression
-The independent Variables of Customer Churn Dataset are:
+The Independent Variables of Customer Churn Dataset are:
 - Customer Tenure
 - Contract Type
 - Payment Method
