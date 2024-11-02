@@ -554,3 +554,7 @@ Logistic regression’s focus on binary outcomes and interpretability make it id
 <div align="justify">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+### References
+
+> ### https://www.kaggle.com/datasets/camnugent/california-housing-prices/code
+> ### https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code
