@@ -25,7 +25,7 @@ Linear and logistic regression are foundational techniques in statistical modeli
 Linear regression models the relationship between a dependent variable (output) and one or more independent variables (inputs). It aims to find the best-fit line through the data points that minimizes the difference between the actual and predicted values.
 
 - **Formula**: The linear regression model is represented as:
-> ![formula 1](https://github.com/user-attachments/assets/13c0ee67-dd84-4da8-9cdb-7f91460945fa)
+> ![formula 1](https://github.com/user-attachments/assets/13c0ee67-dd84-4da8-9cdb-7f91460825fa)
 
   where:
   - ![Capture](https://github.com/user-attachments/assets/838efc3d-188a-4f4d-9719-5e9701e926b0) is the dependent variable,
@@ -519,7 +519,7 @@ On the other hand, the Dependent Variable is the variable **Churn**.
 
 Since some of the variables have unique values, it has to be replaced with numerical values.
 
-Below is a **Heat Map** of the **Confusion Matrix** showing the result of Logistic Regression with 82-95 percent accuracy.
+Below is a **Heat Map** of the **Confusion Matrix** showing the result of Logistic Regression with 82-82 percent accuracy.
 
 ![image](https://github.com/user-attachments/assets/3821ef4f-1f47-4c2a-8689-876808483e2c)
 
